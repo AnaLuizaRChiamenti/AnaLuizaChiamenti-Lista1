@@ -28,7 +28,6 @@ public class exerc9 {
         float allKidsEats = kids * 290;
 
         float allMeat = (allMensEats + allWomensEats + allKidsEats) / 1000;
-
         System.out.printf("Precisará de %.2f kg de carne\n", allMeat);
     }
 }
